@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<libro titulo="Serafin del fin" editorial="El mundo" numero_paginas="224" autor="Luis Maroto">
+     <capitulos>
+        <capitulo titulo="El amanecer" pagina_inicio="3" pagina_finalizacion="53"/>
+        <capitulo titulo="El despertar" pagina_inicio="54" pagina_finalizacion="95"/>
+        <capitulo titulo="Un nuevo compañero" pagina_inicio="96" pagina_finalizacion="133"/>
+        <capitulo titulo="El principio del fin" pagina_inicio="169" pagina_finalizacion="193"/>
+        <capitulo titulo="Hasta nunca" pagina="194" pagina_finalizacion="223"/>
+    </capitulos>
+</libro>

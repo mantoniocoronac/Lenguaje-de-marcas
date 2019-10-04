@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<centro_comercial>
+    <tiendas>
+        <tienda nombre="El corte ingles" metros_cuadrados="2.761">
+            <parcelas>
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+                <parcela>4</parcela>
+            </parcelas>
+            <contacto NSS="736498756712" nombre="Jose" apellidos="Jimenez Vazquez" telefono="673812491"/>
+        </tienda>
+        <tienda nombre="Spurs" metros_cuadrados="874">
+            <parcelas>
+                <parcela>5</parcela>
+            </parcelas>
+            <contacto NSS="451298467012" nombre="Francisco" apellidos="Jurado Perez" telefono="666182842"/>
+        </tienda>
+        <tienda nombre="100 montaditos" metros_cuadrados="1023">
+            <parcelas>
+                <parcela>6</parcela>
+                <parcela>7</parcela>
+            </parcelas>
+            <contacto NSS="987123764281" nombre="Pepe" apellidos="Fernandez Fernandez" telefono="621784281"/>
+        </tienda>
+        <tienda nombre="Adidas" metros_cuadrados="1420">
+            <parcelas>
+                <parcela>8</parcela>
+                <parcela>9</parcela>
+                <parcela>10</parcela>
+            </parcelas>
+            <contacto NSS="564389124" nombre="Javier" apellidos="Romero Reina" telefono="673654123"/>
+        </tienda>
+        <tienda nombre="Doner Kebab falazel" metros_cuadrados="721">
+            <parcelas>
+                <parcela>11</parcela>
+            </parcelas>
+            <contacto NSS="265498361" nombre="Mohamed" apellidos="Ahli Sultan" telefono="622458965"/>
+        </tienda>
+        <tienda nombre="La Yen" metros_cuadrados="511">
+            <parcelas>
+                <parcela>12</parcela>
+            </parcelas>
+            <contacto NSS="896478521" nombre="Yen" apellidos="Utaka Uraka" telefono="653958231"/>
+        </tienda>
+        <tienda nombre="Springfield" metros_cuadrados="924">
+            <parcelas>
+                <parcela>13</parcela>
+                <parcela>14</parcela>
+            </parcelas>
+            <contacto NSS="754365124" nombre="Teresa" apellidos="Campos Palomo" telefono="673821952"/>
+        </tienda>
+        <tienda nombre="Lounge Cafe" metros_cuadrados="612">
+            <parcelas>
+                <parcela>15</parcela>
+            </parcelas>
+            <contacto NSS="54653269812" nombre="Antonio" apellidos="Guzman Padilla" telefono="649821234"/>
+        </tienda>
+        <tienda nombre="Panaderia el Polvi" metros_cuadrados="421">
+            <parcelas>
+                <parcela>16</parcela>
+            </parcelas>
+            <contacto NSS="546986325" nombre="Miriam" apellidos="Polvillo Cordero" telefono="63654821"/>
+        </tienda>
+        <tienda nombre="Reparaciones Antonio" metros_cuadrados="485">
+            <parcelas>
+                <parcela>17</parcela>
+            </parcelas>
+            <contacto NSS="564896378" nombre="Antonio Manuel" apellidos="Fernandez Sanchez" telefono="681235812"/>
+        </tienda>
+    </tiendas>
+</centro_comercial>

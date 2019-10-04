@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<concesionario>
+    <marcas>
+        <marca nombre="Opel" pais_procedencia="Alemania">
+            <coches>
+                <coche matricula="2014 HDP" modelo="Opel Zafira" año_matriculacion="2015" numero_plazas="7" cc="4"/>
+                <coche matricula="3056 PML" modelo="Opel Astra" año_matriculacion="2014" numero_plazas="5" cc="3"/>
+            </coches>
+        </marca>
+        <marca nombre="Porsche" pais_procedencia="Alemania">
+            <coches>
+                <coche matricula="1245 SSF" modelo="Panamera" año_matriculacion="2017" numero_plazas="5" cc="5"/>
+                <coche matricula="9777 VGG" modelo="911 GT" año_matriculacion="2016" numero_plazas="5" cc="6"/>
+            </coches>
+        </marca>
+        <marca nombre="Lamborghini" pais_procedencia="Italia">
+            <coches>
+                <coche matricula="8756 GHA" modelo="Diablo" año_matriculacion="2018" numero_plazas="5" cc="6"/>
+                <coche matricula="9465 BFF" modelo="Toro" año_matriculacion="2017" numero_plazas="5" cc="6"/>
+            </coches>
+        </marca>
+        <marca nombre="Seat" pais_procedencia="España">
+            <coches>
+                <coche matricula="5768 UWU" modelo="Ibiza" año_matriculacion="2014" numero_plazas="5" cc="4"/>
+                <coche matricula="4695 PUS" modelo="Panda" año_matriculacion="2014" numero_plazas="5" cc="4"/>
+            </coches>
+        </marca>
+        <marca nombre="Audi" pais_procedencia="Alemania">
+            <coches>
+                <coche matricula="4623" modelo="R8" año_matriculacion="2018" numero_plazas="5" cc="6"/>
+                <coche matricula="2419" modelo="TT" año_matriculacion="2017" numero_plazas="5" cc="5"/>
+            </coches>
+        </marca>
+    </marcas>
+</concesionario>
