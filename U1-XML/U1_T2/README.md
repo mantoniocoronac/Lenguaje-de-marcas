@@ -5,7 +5,7 @@ EJERCICIO1 (ej1.xml,ej1.dtd,e1.xsd)
 Realizar un DTD y el XML Schema que validen el siguiente XML.
 
 <?xml version="1.0" encoding="UTF-8"?>
-<iceCreamShop">
+<iceCreamShop>
  <iceCream manufacture="2015-01-30">
   <chocolate>250</chocolate>
  </iceCream>
