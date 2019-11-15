@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ej3</title>
+</head>
+
+<body>
+    <form method="POST" action="">
+        <table>
+            <thead style="background-color: lightseagreen">
+                <td colspan="2" style="text-align: center">IES Alixar Login</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="usuario">Usuario:</label></td>
+                    <td><input type="text" name="usuario"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="fecha_nacimiento">Fecha de Nacimiento</label></td>
+                    <td><input type="date" name="fecha_nacimiento"></td>
+                </tr>
+                <tr>
+                    <td><label for="curso_matriculacion">Curso de Matriculación:</label></td>
+                    <td>
+                        <select name="curso_matriculacion" id="">
+                            <option value="0" selected>Primero DAW1</option>
+                            <option value="1">Segundo DAW1</option>
+                            <option value="2">Primero SMR</option>
+                            <option value="3">Segundo SMR</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><label for="role">Role:</label></td>
+                    <td><input type="radio" name="role" checked>Estudiante</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="role">Profesor</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="role">Apoyo</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="role">Staff</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="forma_comunicacion">Mail</td>
+                </tr>
+                <tr>
+                    <td><label for="forma_comunicacion">Forma de Comunicación</label></td>
+                    <td><input type="checkbox" name="forma_comunicacion">Teléfono</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="forma_comunicacion" checked>Correo ordinario</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
