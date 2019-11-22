@@ -1,0 +1,21 @@
+tbody tr:nth-child(odd){
+    background-color: lightblue
+}
+
+tbody tr:nth-child(even){
+    background-color: lightcoral
+}
+
+tbody tr:hover{
+    background-color: green;
+    color: red;
+}
+
+tbody tr td{
+    border-bottom: 5px solid black;
+}
+
+thead{
+    background-color: black;
+    color:white
+}
