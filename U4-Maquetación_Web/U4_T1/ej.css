@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+header h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 0;
+}
+
+header p{
+    text-align: right;
+    margin:0;
+    margin-top: 0;
+}
+
+.topbar{
+    width: 100%;
+    background-color: black;
+    float: left;
+}
+
+.topbar ul, footer p{
+    margin: 0;
+    padding-left: 0;
+}
+
+.topbar li{
+    list-style-type: none;
+    background-color: black;
+    float: left;
+    color: white;
+    width: 16%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.topbar li:hover{
+    background-color: white;
+    color: black;
+}
+
+.sidebar{
+    float: left;
+    width: 25%;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar h4{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.sidebar li{
+    padding-bottom: 10%;
+}
+
+.sidebar li:nth-child(odd){
+    background-color: gray;
+}
+
+#ultimo{
+    padding-bottom: 50%;
+}
+
+.figure{
+    background-color: gray;
+    width: 30%;
+    float: left;
+    margin: 0 10%;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 1.7%;
+}
+
+.form{
+    float: left;
+    width: 25%;
+}
+
+.form h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+  }
+
+img{
+    width: 90%;
+}
