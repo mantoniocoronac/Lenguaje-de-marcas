@@ -128,15 +128,17 @@ header img {
 
 #twittericono{
     float: left;
+    margin-top: 5%;
 }
 
 .twit{
     margin-left: 5%;
 }
 
-.twitter{
+.twit p{
     float: left;
     width: 95%;
+    margin-top: 5%;
 }
 
 #link{
