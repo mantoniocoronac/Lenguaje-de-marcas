@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header{
+    height: 99.031px;
+}
+.logotipo{
+    float: left;
+    width: 50%;
+}
+
+.logotipo img{
+    width: 50%;
+}
+
+aside{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+aside img{
+    width: 5%;
+}
+
+nav{
+    height: 50px;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    padding-right: 5%;
+    padding-top: 15px;
+    height: 50px;
+}
+
+nav li:hover{
+    background-color: lightblue;
+}
+
+
+.twitter{
+    float: right;
+}
+
+.twitter img{
+    width: 100%;
+}
+
+.fotosigno img{
+    width: 100%;
+}
+
+#padre{
+    position: absolute;
+    width: 66%;
+}
+
+#ooo,#signomenor,#signomayor{
+    position: relative;
+    color: palevioletred;
+    
+}
+#signomenor{
+   top: 70px; 
+   left: 10px;
+   
+}
+
+#ooo{
+    top: 160px;
+    left: 415px;
+}
+
+#signomayor{
+    top: 88px;
+    left: 820px;
+}
+
+.articulo{
+    float: left;
+    width: 15%;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-top: 14%;
+    margin-left: 2%;
+}
+
+.articulo:nth-child(1){
+    margin-left: 15%;
+
+}
+
+.articulo img{
+    width: 75%;
+}
+
+#img2{
+    width: 60%;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+nav,footer{
+    background-color: palevioletred;
+    color: white;
+}
