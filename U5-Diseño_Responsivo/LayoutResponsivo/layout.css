@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left h1,.left h2{
+    color: #0077D9;
+}
+
+.bluetext{
+    background-color: #0077D9;
+    color: white;
+}
+
+.form{
+    border: solid black 1px;
+}
+
+.form h2{
+    border-bottom: solid black 1px;
+    background-color: grey;
+    color: white;
+    margin-top: 0;
+}
+
+
+
+
+@media (max-width: 575px) {
+
+    .container{
+        text-align: center;
+    }
+
+    .formup{
+        width: 85%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    textarea{
+        width: 75%;
+    }
+
+    button{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .formup select {
+        margin-bottom: 0px;
+    }
+
+    .checks{
+        text-align: left;
+        margin-left: 12%;
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+
+    header{
+        text-align: center;
+    }
+
+    .figure1, .figure2, .bluetext {
+        clear: both;
+    }
+
+    .figure1 img {
+        width: 30%;
+        float: left;
+        margin-bottom: 5%;
+    }
+    .figure1 h2, .figure1 p{
+        width: 65%;
+        float: right;
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .figure2 img {
+        width: 30%;
+        float: right;
+        margin-bottom: 5%;
+    }
+    .figure2 h2, .figure2 p{
+        width: 65%;
+        float: left;
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .bluetext{
+        width: 25%;
+        float: right;
+        text-align: center;
+        margin-top: 12%;
+    }
+
+    .form{
+        margin-top: 3%;
+        width: 73%;
+        float: left;
+        text-align: center;
+
+    }
+
+    .formup{
+        width: 85%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    textarea{
+        width: 75%;
+    }
+
+    button{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .formup select {
+        margin-bottom: 0px;
+    }
+
+    .checks{
+        text-align: left;
+        margin-left: 12%;
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .left{
+        float: left;
+        width: 70%;
+    }
+
+    .right{
+        float: right;
+        width: 30%;
+        text-align: center;
+    }
+
+    .formup{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    textarea{
+        width: 80%;
+        margin-right: 11%;
+    }
+
+    button{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: blue;
+        color: white;
+        width: 95%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border:0
+    }
+
+    .formup select {
+        margin-bottom: 0px;
+    }
+
+    .checks{
+        text-align: left;
+        margin-left: 4%;
+        margin-top: 1rem;
+    }
+
+    .figure1 ,.img2{
+        float: right;
+        width: 50%;
+        margin-right: 5%;
+    }
+
+    .figure2{
+        float: left;
+        margin-bottom: 10%;
+        width: 50%;
+    }
+    
+    .img1{
+        width: 35%;
+    }
+
+    .img2{
+        width: 40%;
+    }
+
+    .img3{
+        float: left;
+        width: 35%;
+    }
+
+
+
+
+}
