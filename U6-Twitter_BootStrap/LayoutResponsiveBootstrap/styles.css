@@ -1,0 +1,31 @@
+.wi{
+    width: 80%;
+}
+
+@media (min-width: 576px){
+     
+        h2,p{
+            width: 50%;
+        }
+
+        .cblue{
+            width: 35%;
+        }
+
+        form,.gc{
+            width: 60%;
+        }
+
+    }
+
+    @media (min-width: 992px){
+
+        .cblue{
+            width: 95%;
+        }
+
+        form,.gc{
+            width: 100%;
+        }
+
+    }
