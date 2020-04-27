@@ -1,0 +1,7 @@
+$tema-oscuro: true;
+@if $tema-oscuro==true {
+    .container{
+        background-color: black;
+        color: white;
+    }
+}

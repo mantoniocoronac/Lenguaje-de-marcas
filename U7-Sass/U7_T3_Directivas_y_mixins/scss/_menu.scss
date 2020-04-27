@@ -1,0 +1,13 @@
+.menu{
+    
+    border-bottom: $bordemenu;
+    position: sticky;
+    top: 0;
+    background-color: $menufondo;
+    a{
+        padding-right: 5%;
+        text-decoration: none;
+        color: $menucolor;
+    }
+
+}

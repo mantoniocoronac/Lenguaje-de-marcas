@@ -1,0 +1,19 @@
+$cont: 1;
+$colores: rgb(0, 255, 13),rgb(255, 0, 0),rgb(255, 0, 212),rgb(0, 204, 255),rgb(238, 255, 0), rgb(83, 90, 83),rgb(255, 174, 0);
+$titulos: 6;
+$tamano: 30px,25px,20px,15px,10px,5px; 
+$altura: 37px,32px,27px,22px,17px,12px;
+
+
+@for $cont from 1 through 7{
+    table tr:nth-child(#{$cont}){
+        background-color: nth($colores,$cont );
+    }
+}
+
+@for $i from 1 through $titulos{
+    h#{$i}{
+        font-size: nth($tamano,$i);
+        height: nth($altura,$i);
+    }
+}
